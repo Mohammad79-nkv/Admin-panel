@@ -1,0 +1,112 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: sandybrown;
+    line-height: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1000;
+    align-items: stretch;
+}
+.logo{
+    max-height:3.5rem;
+}
+.sidbar-header{
+    flex: 0 0 14rem;
+}
+.body-header{
+    width: calc(100% - 14rem);
+    background-color: #ffffff
+}
+.search-area{
+    background-color: #dcdcdc;
+    padding: .3rem .6rem;
+    border-radius: 5rem;
+}
+.search-input{
+    background-color:rgba(0, 0, 0,0);
+    border: none;
+    outline: none;
+    margin: 0 .6rem;
+}
+.header-notification{
+    position: absolute;
+    left: 0;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 1px 20px rgba(70, 90, 100, 0.08);
+    width:16rem;
+    display: none;
+}
+.notification-img{
+    width:3rem;
+    border-radius:0.1rem;
+}
+.notification-user{
+    font-size:0.8rem;
+    font-weight:bold;
+}
+.notification-text{
+    font-size:0.8rem;
+    line-height:0.6rem;
+}
+.notification-time{
+    font-size:0.6rem;
+    line-height:0.6rem;
+}
+.comment-notification{
+    position: absolute;
+    height: 60vh;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 1px 20px rgba(70, 90, 100, 0.08);
+    width:18rem;
+    display: none;
+}
+.header-comment-wrapper{
+    height: 100%;
+    overflow: auto;
+}
+.comment-user{
+    font-size:0.75rem;
+    font-weight:bold;
+    margin-top: .8rem;
+}
+.user-comment-status{
+    font-size:0.4rem;
+}
+.header-avatar{
+    width: 2rem;
+    height: 2rem;
+    border-radius:0.3rem;
+    margin: 0.2rem;
+}
+.header-username{
+    font-size:0.8rem;
+    color: #333333;
+}
+.header-profile{
+    position: absolute;
+    margin-top:0.3rem;
+    left:0;
+    height: auto;
+    z-index: 1000;
+    width:13rem;
+    background-color:#fff;
+    color: #000000;
+    box-shadow: 0 1px 20px rgba(70, 90, 100, 0.08);
+    display: none;
+}
+.header-profile-link{
+    padding:0.4rem;
+    font-size:0.8rem;
+    line-height:0.4rem;
+}
+.header-profile-link > i{
+    width:2rem;
+    text-align: center;
+}
